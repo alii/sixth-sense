@@ -1,0 +1,28 @@
+{
+	"name": "sixth-sense",
+	"version": "1.0.0",
+	"description": "Gives functions a sixth sense",
+	"type": "module",
+	"license": "MIT",
+	"author": "Alistair Smith <hi@alistair.sh> (https://alistair.sh)",
+	"exports": {
+		"import": "./dist/index.js",
+		"require": "./dist/index.cjs"
+	},
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"main": "./dist/index.cjs",
+	"files": [
+		"package.json",
+		"dist",
+		"README.md"
+	],
+	"scripts": {
+		"build": "tsup src/index.ts --format cjs,esm --dts"
+	},
+	"devDependencies": {
+		"tsup": "^6.2.3",
+		"typescript": "^4.8.3"
+	},
+	"repository": "git@github.com:alii/sixth-sense.git"
+}
