@@ -1,6 +1,6 @@
 {
 	"name": "sixth-sense",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Gives functions a sixth sense",
 	"type": "module",
 	"license": "MIT",
@@ -17,6 +17,10 @@
 		"dist",
 		"README.md"
 	],
+	"homepage": "https://github.com/alii/sixth-sense#readme",
+	"bugs": {
+		"url": "https://github.com/alii/sixth-sense/issues"
+	},
 	"scripts": {
 		"build": "tsup src/index.ts --format cjs,esm --dts"
 	},
