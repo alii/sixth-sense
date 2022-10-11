@@ -11,9 +11,9 @@ npm install sixth-sense
 ## Usage
 
 ```javascript
-import { sense } from "sixth-sense";
+import { aware } from "sixth-sense";
 
-const add = sense(function (a, b) {
+const add = aware(function (a, b) {
 	// Listen for if the function throws
 	this.onThrow(error => {
 		this.return(-1);
